@@ -1,0 +1,50 @@
+.search-bg {
+    background-image: url(/img/background-search.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding-top: 50px;
+}
+
+.search {
+    display: flex;
+    place-content: center;
+    padding-top: 120px;
+    padding-bottom: 140px;
+    text-align: center;
+    position: relative;
+}
+
+.search input {
+    width: 540px;
+    height: 55px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font: 300 1.125rem/1.33 "Poppins", sans-serif;
+}
+
+/* .search input:focus {
+    
+} */
+
+@media (max-width: 800px) {
+    .search input {
+        width: 440px;
+    }
+}
+
+@media (max-width: 600px) {
+    .search input {
+        width: 340px;
+    }
+}
+
+.icon {
+    margin-left: 12px;
+    top: 140px;
+    position: absolute;
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+}

@@ -1,0 +1,151 @@
+footer {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-bg {
+    background-color: rgb(24,104,183);
+    height: 920px;
+}
+
+.redes > img {
+    width: 28px;
+    height: 28px;
+}
+
+.footer-div1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+.footer-email {
+    padding-top: 60px;
+}
+
+.footer-email h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.footer-email span {
+    display: inline-block;
+    max-width: 44ch;
+}
+
+.footer-email input {
+    width: 320px;
+    height: 48px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: none;
+}
+
+.footer-social {
+    padding-top: 60px;
+}
+
+.footer-social h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.redes-list {
+    display: flex;
+    gap: 12px;
+}
+
+.redes img{
+    padding: 14px;
+    background-color: #2081E2;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.redes img:hover {
+    background-color: #209be2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.linha-div1 {
+    display: block;
+    background-color: #3f86cc;
+    height: 1px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.linha-div2 {
+    display: block;
+    background-color: #3f86cc;
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-description img {
+    height: 44px;
+    width: 44px;
+    margin-bottom: 12px;
+}
+
+.footer-description h3 {
+    margin-bottom: 8px;
+}
+
+.footer-description span {
+    display: inline-block;
+    max-width: 34ch;
+}
+
+.footer-div2 {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr;
+}
+
+.footer-info {
+    padding-left: 60px;
+}
+
+.footer-info h4 {
+    margin-bottom: 16px;
+}
+
+.footer-info li {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.footer-info li:hover {
+    font-weight: 600;
+}
+
+.stats {
+    padding-top: 66px;
+}
+
+.direitos-reservados {
+    display: flex;
+    justify-content: space-between;
+}
+
+.direitos-reservados li {
+    display: inline-block;
+    padding-left: 12px;
+}
+
+.direitos-reservados span,
+.direitos-reservados li {
+    font-size: 12px;
+}
+

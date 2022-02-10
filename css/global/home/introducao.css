@@ -1,0 +1,57 @@
+.introducao-bg {
+    background-color: #ffffff;
+}
+
+.introducao1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 60px;
+    gap: 32px;
+}
+
+@media (max-width: 800px) {
+    .introducao1 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .introducao1 {
+        grid-template-columns: 1fr;
+    }
+}
+
+.introducao-items {
+    padding: 20px 40px;
+    border: 1px solid #E5E8EB;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.introducao-items h2 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.introducao-items span {
+    font-family: 'Poppins';
+    color: #7a828a;
+    font-weight: 300;
+}
+
+.introducao2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    gap: 32px;
+}
+
+.introducao-items:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}

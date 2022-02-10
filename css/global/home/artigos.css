@@ -1,0 +1,51 @@
+.articles {
+    padding-bottom: 60px;
+}
+
+.articles h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #252525;
+    padding-bottom: 40px;
+}
+
+.articles-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 20px;
+}
+
+@media (max-width: 800px) {
+    .articles-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .articles h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .articles-list {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .articles-list li {
+        max-width: 45ch;
+    }
+}
+
+.articles-list li {
+    max-width: 31ch;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #353535;
+}
+
+.articles-list li:hover {
+    font-weight: 600;
+}

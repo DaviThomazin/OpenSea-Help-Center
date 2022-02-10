@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Botão*/
+.botao {
+    display: inline-block;
+    background-color: #2081E2;
+    color: #ffffff;
+    padding: 8px 20px;
+    text-decoration: none;
+    font: 500 1rem/1.5 "Roboto", sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.botao:hover {
+    background-color: rgb(29, 109, 189);
+}
+
+.botao-footer {
+    display: inline-block;
+    padding: 12px 32px;
+    margin-left: 12px;
+    border-radius: 10px;
+    background-color: #2081E2;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: .1s;
+}
+
+.botao-footer:hover {
+    background-color: #209be2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}

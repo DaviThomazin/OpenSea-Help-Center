@@ -7,6 +7,6 @@
 @import "./css/global/utilitario/componentes.css";
 
 /*Home*/
-@import "./css/global/home/search.css";
-@import "./css/global/home/introducao.css";
-@import "./css/global/home/artigos.css"
+@import "./home/search.css";
+@import "./home/introducao.css";
+@import "./home/artigos.css";

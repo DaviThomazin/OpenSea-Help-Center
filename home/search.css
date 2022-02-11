@@ -1,5 +1,5 @@
 .search-bg {
-    background-image: url(/img/background-search.png);
+    background-image: url(../img/fotos/background-search.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -24,10 +24,6 @@
     border-radius: 6px;
     font: 300 1.125rem/1.33 "Poppins", sans-serif;
 }
-
-/* .search input:focus {
-    
-} */
 
 @media (max-width: 800px) {
     .search input {
